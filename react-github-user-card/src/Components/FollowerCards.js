@@ -9,14 +9,15 @@ import Follower from  './Follower.js';
 function FollowerCards(props) {
     console.log("These are the props in the Follower card file:", props)
     return(
-        <section className="container-div">
+        <div className="container-div">
            {props.followerData.map((follower =>
 
-           
+        <div className="follower-card-div"> 
         <Follower follower={follower} />
+        </div>
 
     ))}
-       </section>
+       </div>
     )
 }
 

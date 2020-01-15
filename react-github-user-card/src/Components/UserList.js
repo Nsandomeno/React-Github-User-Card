@@ -10,11 +10,13 @@ const UserList = (props) => {
     console.log("These are userList props", props)
 
     return(
-        <div className="container-div">
+      
+            <div>
             <UserCard userData={props.userData} />
             <FollowerCards followerData={props.followerData} />
+            </div>
 
-        </div>
+            
     )
 
 }

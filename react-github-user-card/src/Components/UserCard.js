@@ -6,7 +6,7 @@ import '../index.css';
 
 const UserCard = (props) => {
     return(
-        <div>
+        <div className="user-card-div">
             <Card className='card'>
                 <CardImg className="card-img" src={props.userData.avatar_url} />
                 <CardBody className="card-body">
